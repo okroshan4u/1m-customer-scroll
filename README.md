@@ -1,16 +1,61 @@
-# React + Vite
+# 🧾 Customers List UI — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A performant **Customers List UI** built with **React + Vite**, capable of handling **1 million records** smoothly with **infinite scroll**, **search**, and **sorting** functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+✅ **1 Million Records** — Generated locally (no API calls).  
+✅ **Infinite Scroll** — Loads more rows dynamically as you scroll.  
+✅ **Search** — Debounced (250ms) search by **name, email, or phone**.  
+✅ **Sorting** — Click on column headers to toggle **ascending / descending** order.  
+✅ **Filters Dropdown** — Static filters (non-functional) for demonstration.  
+✅ **Sticky Header** — Table header remains visible while scrolling.  
+✅ **Smooth Performance** — Efficient rendering with React’s virtualization techniques.  
+✅ **Plain CSS Only** — No Tailwind, Bootstrap, or UI libraries.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18+**
+- **Vite**
+- **Node.js 22+**
+- **Plain CSS**
+- **In-Memory / IndexedDB Storage**
+
+---
+
+## 📊 Data Schema
+
+Each record includes:
+
+| Field          | Description                 | Example                          |
+|----------------|-----------------------------|----------------------------------|
+| `id`           | Unique ID                   | 1                                |
+| `name`         | Customer name               | John Doe                         |
+| `phone`        | Phone number                | +1-555-123-4567                  |
+| `email`        | Email address               | john.doe@email.com               |
+| `score`        | Customer score (1–100)      | 87                               |
+| `lastMessageAt`| Last message timestamp      | 2025-10-25 14:32:10              |
+| `addedBy`      | Who added the record        | Admin                            |
+| `avatar`       | Profile image (randomized)  | https://randomuser.me/...        |
+
+---
+
+## 🖥️ UI Overview
+
+- **Table View** — Displays customer data (30 rows per page).
+- **Sticky Header** — Always visible on scroll.
+- **Hover Effect** — Highlighted row on hover.
+- **Filters Dropdown** — Opens a dummy filter menu (non-functional).
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
