@@ -72,3 +72,17 @@ npm run dev
 
 Then open http://localhost:5173
  in your browser.
+
+### 🔍 Search & Sort Behavior
+
+- Search:
+
+  - Filters records by name, email, or phone.
+
+  - Debounced by 250ms to improve performance.
+
+- Sort:
+
+  - Click a column header to toggle ascending / descending order.
+
+  - Sorting works client-side.
