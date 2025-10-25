@@ -59,3 +59,16 @@ Each record includes:
 ```bash
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
+```
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+### 3️⃣ Run the App
+```bash
+npm run dev
+```
+
+Then open http://localhost:5173
+ in your browser.
