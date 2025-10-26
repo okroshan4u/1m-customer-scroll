@@ -57,8 +57,8 @@ Each record includes:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/okroshan4u/1m-customer-scroll.git
+cd 1m-customer-scroll
 ```
 
 ### 2️⃣ Install Dependencies
@@ -153,7 +153,7 @@ src/
 
 - This project is licensed under the MIT License — feel free to use, modify, and distribute it.
 
-## 👨‍💻 Author
+### 👨‍💻 Author
 
  - okroshan4u
  - 🔗 GitHub
