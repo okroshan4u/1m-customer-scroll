@@ -86,3 +86,11 @@ Then open http://localhost:5173
   - Click a column header to toggle ascending / descending order.
 
   - Sorting works client-side.
+ 
+ ### 🧠 Implementation Details
+
+- Data Generation:
+
+ - 1M mock records generated locally on startup.
+
+ - Uses in-memory data or IndexedDB for persistence.
