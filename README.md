@@ -156,7 +156,7 @@ src/
 ### 👨‍💻 Author
 
  - okroshan4u
- - 🔗 GitHub
- - LinkedIn
+ - GitHub: https://github.com/okroshan4u.com/
+ - LinkedIn: https://linkedin.com/in/roshan-kumar-ram-512457246/
 
  - 📧 okroshan4u@gmail.com   
