@@ -139,3 +139,12 @@ src/
 ├── main.jsx
 ├── index.css
 ```
+### 💡 Future Improvements
+
+ - Add functional filters
+
+ - Implement server-side pagination
+
+ - Add export (CSV / Excel) functionality
+
+ - Dark mode toggle
