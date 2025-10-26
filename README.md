@@ -122,6 +122,7 @@ Then open http://localhost:5173
   - Smooth and responsive UI
 
    ### 📁 Folder Structure
+   ```base
 src/
 ├── components/
 │   ├── Table.jsx
@@ -137,3 +138,4 @@ src/
 ├── App.jsx
 ├── main.jsx
 ├── index.css
+```
