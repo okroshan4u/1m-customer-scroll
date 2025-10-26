@@ -120,3 +120,20 @@ Then open http://localhost:5173
   - Sticky header remains visible while scrolling
 
   - Smooth and responsive UI
+
+   ### 📁 Folder Structure
+src/
+├── components/
+│   ├── Table.jsx
+│   ├── TableHeader.jsx
+│   ├── TableRow.jsx
+│   ├── FiltersDropdown.jsx
+│
+├── utils/
+│   ├── generateData.js
+│   ├── debounce.js
+│   ├── sortUtils.js
+│
+├── App.jsx
+├── main.jsx
+├── index.css
