@@ -148,3 +148,15 @@ src/
  - Add export (CSV / Excel) functionality
 
  - Dark mode toggle
+
+### 📜 License
+
+- This project is licensed under the MIT License — feel free to use, modify, and distribute it.
+
+## 👨‍💻 Author
+
+ - okroshan4u
+ - 🔗 GitHub
+ - LinkedIn
+
+ - 📧 okroshan4u@gmail.com   
