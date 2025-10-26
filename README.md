@@ -94,3 +94,13 @@ Then open http://localhost:5173
  - 1M mock records generated locally on startup.
 
  - Uses in-memory data or IndexedDB for persistence.
+
+### Infinite Scrolling:
+
+- Renders only visible rows using window-based rendering to avoid DOM overload.
+
+- Loads additional pages (30 rows each) as user scrolls.
+
+- Performance Optimization:
+
+- React memoization & efficient state updates.
