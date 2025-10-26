@@ -104,3 +104,19 @@ Then open http://localhost:5173
 - Performance Optimization:
 
 - React memoization & efficient state updates.
+  
+- Lazy loading for smooth experience even with 1M records.
+
+### 🧪 Testing Checklist
+
+  - Can scroll through all 1M records without lag
+
+  - Search filters records (partial match supported)
+ 
+  - Sorting toggles ASC / DESC correctly
+
+  - Filters dropdown opens (dummy functionality)
+
+  - Sticky header remains visible while scrolling
+
+  - Smooth and responsive UI
