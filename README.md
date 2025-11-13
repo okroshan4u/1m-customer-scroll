@@ -1,4 +1,4 @@
-# 🧾 Customers List UI — React + Vite
+# 🧾 Customers List UI — React
 
 A performant **Customers List UI** built with **React + Vite**, capable of handling **1 million records** smoothly with **infinite scroll**, **search**, and **sorting** functionality.
 
