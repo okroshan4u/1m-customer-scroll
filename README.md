@@ -53,7 +53,7 @@ Each record includes:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Clone the Repository
 ```bash
